@@ -2,7 +2,7 @@
 layout: post
 title: How to use time and date in KQL 
 tags: [KQL]
-# color: rgb(42, 52, 68)
+color: rgb(227,6,19)
 ---
 
 # How to use time and date in KQL
@@ -13,7 +13,7 @@ This article shows you how to work with date and time values in KQL.
 
 The function `datetime()` allows you to create a datetime variable.
 
-```kql
+```js
 let myDate = datetime();
 VMComputer
 | where TimeGenerated >= myDate
@@ -31,3 +31,139 @@ bla bla bla
 #### h4
 
 ##### h5
+
+any long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long textany long text
+
+any long text
