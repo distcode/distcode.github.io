@@ -193,3 +193,23 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 </div>
 </details>
+
+### PowerShell
+
+```Powershell
+Get-Service -Name x*
+
+Get-Process | Where-Object -Filterscript { $_.ProcessID -gt 1000 }
+```
+
+### TaskList
+
+Solar System
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
