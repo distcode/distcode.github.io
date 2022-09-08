@@ -205,11 +205,11 @@ Get-Process | Where-Object -Filterscript { $_.ProcessID -gt 1000 }
 ### TaskList
 
 Solar System
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
+1. [ ] Mercury
+1. [x] Venus
+1. [x] Earth (Orbit/Moon)
+1. [x] Mars
+1. [ ] Jupiter
+1. [ ] Saturn
+1. [ ] Uranus
+1. [ ] Neptune
