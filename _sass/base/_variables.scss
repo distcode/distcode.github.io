@@ -33,7 +33,7 @@ html, html[data-theme="light"] {
   --blockquote: #eef7fa;
   --selection: #d4d4d4;
   --meta: #595959;
-  --link: #0072B5;
+  --link:#0072B5;
   --header-background: #24292e;
   --header-text: #ffffff;
   --header-link: #383838;
@@ -56,19 +56,19 @@ html[data-theme="dark"] {
   --selection: #545d68; // selection
   --meta: #909dab; // meta
   --link: #00a8e0; // theme, link, link shadow header bg
-  --header-background: #2A3444; // Color before header image load
+  --header-background:#2A3444; // Color before header image load
   --header-text: #e7f3f4; // header text, feature img text
   --header-link: #adbac7; // header link, search color
   --code-background: #2A3444;
   --code-inline: #d9b600;
   --text-shadow: #2d333b; // text shadow
   --text: #cdd9e5; // text
-  --h1: #d40059; // headers
-  --h2: #b37eff;
-  --h3: #ff66c2;
-  --h4: #00af9e;
-  --h5: #6bac00;
-  --h6: #ff5c00;
+  --h1: #c9d1d9; // #d40059; // headers
+  --h2: #c9d1d9; // #b37eff;
+  --h3: #c9d1d9;
+  --h4: #c9d1d9;
+  --h5: #c9d1d9;
+  --h6: #c9d1d9;
   --border: rgba(255, 255, 255, 0.5); // border
   --cusdis--color-text-default: var(--text);
   --cusdis--color-comment-username-text: var(--link);
