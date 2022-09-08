@@ -196,7 +196,7 @@ sequenceDiagram
 
 ### PowerShell
 
-```Powershell
+```powershell
 Get-Service -Name x*
 
 Get-Process | Where-Object -Filterscript { $_.ProcessID -gt 1000 }
