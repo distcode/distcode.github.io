@@ -5,15 +5,14 @@ url: "https://distcode.github.io"
 # THEME-SPECIFIC CONFIGURATION
 title: DIST docs                                    # site's title
 description: "DIST's site for tecnical documentation."      # used by search engines
-avatar: # assets/img/DIST_Logo_4c.png                         # Empty for no avatar in navbar
+avatar: assets/img/DIST_Logo_4c.svg                         # Empty for no avatar in navbar
 favicon:                       # Icon displayed in the tab
 
 # Header and footer text
 header_text: <img src="assets/img/DIST_Logo_Zusatz_4c_HeaderText.png"><br/>Technical Documentation  # Change Blog header text
 header_feature_image: # assets/img/header/DIST_Logo_HeaderTest.jpeg # assets/img/DIST_Logo_Zusatz_4c.png # assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+footer_text: # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable

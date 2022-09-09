@@ -42,6 +42,7 @@ footer {
 header {
   h1 {
     margin: 0;
+    color: var(--meta);
   }
 }
 
@@ -93,6 +94,7 @@ header {
   }
 
   h1.title, .post-info {
+    color: var(--meta);
     @extend .txt-shadow;
   }
 
