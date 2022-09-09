@@ -9,7 +9,7 @@ avatar: # assets/img/DIST_Logo_4c.png                         # Empty for no ava
 favicon:                       # Icon displayed in the tab
 
 # Header and footer text
-header_text: <img src="assets/img/DIST_Logo_Zusatz_4c.png" width="700" height="300"><br/>DIST's technical documentation  # Change Blog header text
+header_text: <img src="assets/img/DIST_Logo_Zusatz_4c_HeaderText.png"><br/>Technical Documentation  # Change Blog header text
 header_feature_image: # assets/img/header/DIST_Logo_HeaderTest.jpeg # assets/img/DIST_Logo_Zusatz_4c.png # assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
