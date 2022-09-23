@@ -18,6 +18,6 @@ I'm located in Graz, Austria and work for more than 30 years with Microsoft prod
 <br/>
 </p>
 
-Thank you for visiting my post and Have a nice day!
+Thank you for visiting my posts and have a nice day!
 
 Thomas ;-)
