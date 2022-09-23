@@ -10,12 +10,12 @@ toc: false
 
 I'm located in Graz, Austria and work for more than 30 years with Microsoft products. Since 1992 I am conducting trainings, first for end users, since 1996 for IT administrators and operators. My current special topics are Azure Infrasturcture, Azure Active Directory and cyber security architecting. At the moment I'm holding several certifications, some of them you could see here:
 
-<div style="width:50%;">
-![Azure Solution Architect](/assets/img/badgeAzArchitect.png | width=300) ![Cyber Security Architect](/assets/img/badgeSecArchitect.png) ![Certified Trainer](/assets/img/badgeMCT.png)
-</div>
+<p align="center">
+<br/>
+<img src="https://distcode.github.io/assets/img/badgeAzArchitect_150x150.png" alt="any Text" />
+<img src="https://distcode.github.io//assets/img/badgeSecArchitect_150x150.png" alt="any Text" />
+<img src="https://distcode.github.io/assets/img/badgeMCT_150x150.png" alt="any Text" />
+<br/>
+</p>
 
-<img src="/assets/img/badgeazarchitect.png" alt="Azure Architect" />
-
-
-
-
+Have a nice day!
