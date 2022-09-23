@@ -8,6 +8,15 @@ toc: false
 
 # <center>DI Schleich Thomas (DIST)</center>
 
-I' am Microsoft Certified Trainer, Solution Architect and much more.
+I'm located in Graz, Austria and work for more than 30 years with Microsoft products. Since 1992 I am conducting trainings, first for end users, since 1996 for IT administrators and operators. My current special topics are Azure Infrasturcture, Azure Active Directory and cyber security architecting. At the moment I'm holding several certifications, some of them you could see here:
 
-Bla Bla bla
+
+![Azure Solution Architect](/assets/img/badgeAzArchitect.png) ![Cyber Security Architect](/assets/img/badgeSecArchitect.png) ![Certified Trainer](/assets/img/badgeMCT.png)
+
+
+
+<img src="/assets/img/badgeAzArchitect.png" alt="Azure Solution Architect" width=50% />
+
+
+
+
