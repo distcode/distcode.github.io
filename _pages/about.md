@@ -8,7 +8,7 @@ toc: false
 
 # <center>DI Schleich Thomas (DIST)</center>
 
-I'm located in Graz, Austria and work for more than 30 years with Microsoft products. Since 1992 I am conducting trainings, first for end users, since 1996 for IT administrators and operators. My current special topics are Azure Infrasturcture, Azure Active Directory and cyber security architecting. At the moment I'm holding several certifications, some of them you could see here:
+I'm located in Graz, Austria and work for more than 30 years with Microsoft products. Since 1992 I am conducting trainings, first for end users, since 1996 for IT administrators and operators. My current special topics are Azure înfrasturcture, Azure Active Directory and cybersecurity architecting. At the moment I'm holding several certifications, some of them are:
 
 <p align="center">
 <br/>
@@ -18,4 +18,6 @@ I'm located in Graz, Austria and work for more than 30 years with Microsoft prod
 <br/>
 </p>
 
-Have a nice day!
+Thank you for visiting my post and Have a nice day!
+
+Thomas ;-)
