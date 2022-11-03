@@ -34,13 +34,14 @@ MPME is available in two different form: MPME and Microsoft Purview Advanced Mes
 
 | Type | License requirement |
 | --- | --- |
-| MPME (basic) | Azure Information Protection Plan 1 to the following plans: Exchange Online Plan 1 or 2, Office 365 F3, Microsoft 365 Business Basic or Standard, or Office 365 Enterprise E1 To receive Microsoft Purview Message Encryption |
+| MPME (basic) | Azure Information Protection Plan 1 to the following plans: Exchange Online Plan 1 or 2, Office 365 F3, Microsoft 365 Business Basic or Standard, or Office 365 Enterprise E1 |
 | MPME (advanced) | Microsoft E3/E5 or Office 365 E3/E5 |
+
 [Source](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)
 
-## How to activate MPEM?
+## How to activate MPME?
 
-MPEM is activated automatically for all tenants with approriate licences. To check that use the following command. The result should be `True`.
+MPME is activated automatically for all tenants with approriate licences. To check that use the following command. The result should be `True`.
 
 ```powershell
 #Requires -Modules ExchangeOnlineManagement
@@ -111,7 +112,7 @@ Remove-OMEConfiguration -Identity '<customTemplateName>'
 
 ## Working with mail flow rules
 
-To use MPEM automatically for all or selected mails or to use different branding templates for different senders or recipients mail flow rules are necessary. To configure that rules navigate to the [Exchange administration portal](https://admin.exchange.microsoft.com) and sign in as Exchange admin.
+To use MPME automatically for all or selected mails or to use different branding templates for different senders or recipients mail flow rules are necessary. To configure that rules navigate to the [Exchange administration portal](https://admin.exchange.microsoft.com) and sign in as Exchange admin.
 
 Click in the navigation pane on _**Mail flow**_ and then the item _**Rules**_. Create a new rule by selecting the template _Create new Rule_ or _Apply Office 365 Message Encryption and rigts protection to messages_. Any rule template is working as long as the action group in the rule is set to `Modify the message security`.
 
