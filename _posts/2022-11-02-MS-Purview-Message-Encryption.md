@@ -69,15 +69,11 @@ The result of the last command should be `Enabled`.
 
 As the sender or author of message which should be sent encrypted, the user has to change just a single option in Outlook for Desktop or Outlook for Web:
 
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/img/MPMEOutlookDesktop.png" alt="">{% endraw %}
+![Outlook for Desktop](../../../assets/img/MPMEOutlookDesktop.png)
 
-{% raw %}![Outlook for Desktop]({{ site.url }}{{ site.baseurl }}/assets/img/MPMEOutlookDesktop.png){% endraw %}
+![Outlook for Web](../../../assets/img/MPMEOutlookWeb.png)
 
-{% raw %}![Outlook for Web]({{ site.url }}{{ site.baseurl }}/assets/img/MPEMOutlookWeb.png){% endraw %}
-
-![test](../assets/img/MPMEOutlookWeb.png)
-
-> Hint: The option `Encrypt` would encrypt the content of the mail and all attachments, while the option `Do Not Forward` would prevent the forwarding, printing and content copying by the recipient.
+> Hint: The option `Encrypt` would encrypt the content of the mail and all attachments, while the option `Do Not Forward` would additionally prevent the forwarding, printing and content copying by the recipient.
 
 ## Usage by recipient
 
