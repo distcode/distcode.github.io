@@ -11,23 +11,23 @@ toc: true
 Configuring AIP UL Scanner is a lengthy process and has some nasty pitfalls. Read in this post how to get an API Filescanner running successfully.
 <!--more-->
 
-The API UL Scanner allows you to assign MIP Sensitivity labels to local files. These files can be stored in different repositories: file server, NAS devices or local SharePoint sites. With a correctly configured scanners DLP policies could be enforced too. For further information about abilities and features take a look into the [documentation](https://learn.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner).
+The API UL Scanner allows you to assign MIP Sensitivity labels to local files. These files can be stored in different repositories: file server, NAS devices or local SharePoint sites. With a correctly configured scanner DLP policies could be enforced on premises too. For further information about abilities and features take a look into the [documentation](https://learn.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner).
 
-To install and configure the AIP UL Scanner (short Scanner) a lot of requirements must be meet. A list of them could be found in the [documentation](https://learn.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner-prereqs), but unfortunately there are more.
+To install and configure the AIP UL Scanner (short Scanner) a lot of requirements must be met. A list of them could be found in the [MIP documentation](https://learn.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner-prereqs), but unfortunately there are more.
 
 ### AAD Connect
 
-The first additional requirement is a AAD Hybrid Configuration with your on premises Active Directory. It is necessary to sync the service account used by the Scanner to the AAD. This account therfore, must have an UPN capable for signing in to the AAD. All authentication configurations (PHS, PTA and AD FS) could be used.
+The first additional requirement is a AAD Hybrid Configuration with your on premises Active Directory. It is necessary to sync the service account used by the Scanner to the AAD. This account therefore, must have an UPN capable for signing in to the AAD. All authentication configurations (PHS, PTA and AD FS) could be used.
 
 After you have synced successfully the user, assign a licence for information protection in AAD.
 
-On premises assign the _Log on locally_ and _Log on as service_ user right. These assignments are importment for the installation. Permanently the user needs permissions to read and write files in the repositories.
+On premises assign the _Log on locally_ and _Log on as service_ user right. These assignments are importent for the installation. The user needs permanently permissions to read and write files in the repositories.
 
 ### On premises Infrastructure
 
 Install the SQL Server, the [AIP UL client](https://www.microsoft.com/en-us/download/details.aspx?id=53018) and the Micorsoft Office iFilter according to the documentation.
 
-Note, that the AIP UL client is currently in maintenance mode. This means MS will replace that client in the future. For further information read that [blog](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/announcing-aip-unified-labeling-client-maintenance-mode-and/ba-p/3043613).
+Note, that the AIP UL client is currently in maintenance mode. This means MS will replace that client anywhen in the future. For further information read that [blog](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/announcing-aip-unified-labeling-client-maintenance-mode-and/ba-p/3043613).
 
 ### Create Sensitivity Label
 
